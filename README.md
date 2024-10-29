@@ -1,9 +1,17 @@
 # rm-iam-policies
-このプロジェクトは、AWS IAMポリシーを自動的に削除するためのツールです。
-未使用のポリシーや特定の条件に合致するポリシーを検出し、削除します。
+このプロジェクトは、AWS IAMポリシーを自動的に削除するためのツールです。<br>
+アカウント内の未使用ポリシーを検出、削除します。
 
-## 機能
+## 使用方法
+```bash
+# インストール
+brew install takayanagishinnosuke/tap/rm-iam-policies
+```
+```bash
+# プロファイルの指定がない場合はデフォルト
+rm-iam-policies --profile <myProfile>
+```
 
-- 未使用のIAMポリシーを検出
-- IAMポリシーバージョンの削除
-- IAMポリシーの削除
+## ライセンス
+MIT
+
